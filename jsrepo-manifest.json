@@ -1,0 +1,49 @@
+{
+	"name": "@slow-groovin/hellojsrepo",
+	"version": "0.0.1",
+	"categories": [
+		{
+			"name": "utils",
+			"blocks": [
+				{
+					"name": "add",
+					"directory": "src/provided/utils",
+					"category": "utils",
+					"tests": false,
+					"docs": false,
+					"subdirectory": false,
+					"list": true,
+					"files": [
+						"add.ts"
+					],
+					"localDependencies": [],
+					"_imports_": {},
+					"dependencies": [],
+					"devDependencies": []
+				},
+				{
+					"name": "print",
+					"directory": "src/provided/utils",
+					"category": "utils",
+					"tests": false,
+					"docs": false,
+					"subdirectory": false,
+					"list": true,
+					"files": [
+						"print.ts"
+					],
+					"localDependencies": [
+						"utils/add"
+					],
+					"_imports_": {
+						"./add": "{{utils/add}}"
+					},
+					"dependencies": [
+						"chalk"
+					],
+					"devDependencies": []
+				}
+			]
+		}
+	]
+}
