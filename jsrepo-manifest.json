@@ -38,9 +38,7 @@
 					"_imports_": {
 						"./add": "{{utils/add}}"
 					},
-					"dependencies": [
-						"chalk"
-					],
+					"dependencies": [],
 					"devDependencies": []
 				}
 			]
